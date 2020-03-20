@@ -3,7 +3,7 @@
 
 int main()
 {
-    cv::Mat srcImage = cv::imread("/Users/suikajy/vscode-workspace/LearnCmake/res/sculpture.jpg");
+    cv::Mat srcImage = cv::imread("/Users/suikajy/vscode-workspace/OpenCVCppDemo/res/sculpture.jpg");
     if (!srcImage.data)
     {
         std::cout << "Image not loaded";

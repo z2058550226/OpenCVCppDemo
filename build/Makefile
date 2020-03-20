@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.16.5/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/suikajy/vscode-workspace/LearnCmake
+CMAKE_SOURCE_DIR = /Users/butter/VscodeProjects/OpenCVCppDemo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/suikajy/vscode-workspace/LearnCmake/build
+CMAKE_BINARY_DIR = /Users/butter/VscodeProjects/OpenCVCppDemo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/suikajy/vscode-workspace/LearnCmake/build/CMakeFiles /Users/suikajy/vscode-workspace/LearnCmake/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles /Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/suikajy/vscode-workspace/LearnCmake/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TestCmake
+# Target rules for targets named OpenCVCppDemo
 
 # Build rule for target.
-TestCmake: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TestCmake
-.PHONY : TestCmake
+OpenCVCppDemo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenCVCppDemo
+.PHONY : OpenCVCppDemo
 
 # fast build rule for target.
-TestCmake/fast:
-	$(MAKE) -f CMakeFiles/TestCmake.dir/build.make CMakeFiles/TestCmake.dir/build
-.PHONY : TestCmake/fast
+OpenCVCppDemo/fast:
+	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/build
+.PHONY : OpenCVCppDemo/fast
 
 grabCutWithMask.o: grabCutWithMask.cpp.o
 
@@ -129,7 +129,7 @@ grabCutWithMask.o: grabCutWithMask.cpp.o
 
 # target to build an object file
 grabCutWithMask.cpp.o:
-	$(MAKE) -f CMakeFiles/TestCmake.dir/build.make CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.o
+	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/grabCutWithMask.cpp.o
 .PHONY : grabCutWithMask.cpp.o
 
 grabCutWithMask.i: grabCutWithMask.cpp.i
@@ -138,7 +138,7 @@ grabCutWithMask.i: grabCutWithMask.cpp.i
 
 # target to preprocess a source file
 grabCutWithMask.cpp.i:
-	$(MAKE) -f CMakeFiles/TestCmake.dir/build.make CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.i
+	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/grabCutWithMask.cpp.i
 .PHONY : grabCutWithMask.cpp.i
 
 grabCutWithMask.s: grabCutWithMask.cpp.s
@@ -147,7 +147,7 @@ grabCutWithMask.s: grabCutWithMask.cpp.s
 
 # target to generate assembly for a file
 grabCutWithMask.cpp.s:
-	$(MAKE) -f CMakeFiles/TestCmake.dir/build.make CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.s
+	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/grabCutWithMask.cpp.s
 .PHONY : grabCutWithMask.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... TestCmake"
+	@echo "... OpenCVCppDemo"
 	@echo "... grabCutWithMask.o"
 	@echo "... grabCutWithMask.i"
 	@echo "... grabCutWithMask.s"

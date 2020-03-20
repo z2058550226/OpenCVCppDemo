@@ -1,4 +1,4 @@
-# Install script for directory: /Users/suikajy/vscode-workspace/LearnCmake
+# Install script for directory: /Users/butter/VscodeProjects/OpenCVCppDemo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/suikajy/vscode-workspace/LearnCmake/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/butter/VscodeProjects/OpenCVCppDemo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

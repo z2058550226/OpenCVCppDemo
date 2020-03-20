@@ -1,3 +1,3 @@
-/Users/suikajy/vscode-workspace/LearnCmake/build/CMakeFiles/rebuild_cache.dir
-/Users/suikajy/vscode-workspace/LearnCmake/build/CMakeFiles/edit_cache.dir
-/Users/suikajy/vscode-workspace/LearnCmake/build/CMakeFiles/TestCmake.dir
+/Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles/rebuild_cache.dir
+/Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles/edit_cache.dir
+/Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles/OpenCVCppDemo.dir
