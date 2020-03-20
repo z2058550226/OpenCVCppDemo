@@ -12,9 +12,7 @@
 opencv由于是三方库，所以需要导入这个可以用`cmd`+`shift`+`p`选择`C/C++: Edit Configurations`， 也可以直接编辑`.vscode/c_cpp_properties.json`，添加mac常用的include目录`/usr/local/include/**`即可。动态链接opencv在`CMakeList.txt`中配置了
 
 ##### Command
-- build: `cmake --build build/ --target clean`
-- clean: `cmake --build build/`
-- run: `./build/OpenCVCppDemo`
+- build & run: build目录下`cmake . && make && ./OpenCVCppDemo`
 
 正常按F5就可以可以用lldb运行，相关的配置可以在`.vscode/settings.json`里面配置。
 
