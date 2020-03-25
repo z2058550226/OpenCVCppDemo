@@ -123,32 +123,32 @@ OpenCVCppDemo/fast:
 	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/build
 .PHONY : OpenCVCppDemo/fast
 
-grabCutWithMask.o: grabCutWithMask.cpp.o
+ch2_introduction/c2_4.o: ch2_introduction/c2_4.cpp.o
 
-.PHONY : grabCutWithMask.o
+.PHONY : ch2_introduction/c2_4.o
 
 # target to build an object file
-grabCutWithMask.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/grabCutWithMask.cpp.o
-.PHONY : grabCutWithMask.cpp.o
+ch2_introduction/c2_4.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/ch2_introduction/c2_4.cpp.o
+.PHONY : ch2_introduction/c2_4.cpp.o
 
-grabCutWithMask.i: grabCutWithMask.cpp.i
+ch2_introduction/c2_4.i: ch2_introduction/c2_4.cpp.i
 
-.PHONY : grabCutWithMask.i
+.PHONY : ch2_introduction/c2_4.i
 
 # target to preprocess a source file
-grabCutWithMask.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/grabCutWithMask.cpp.i
-.PHONY : grabCutWithMask.cpp.i
+ch2_introduction/c2_4.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/ch2_introduction/c2_4.cpp.i
+.PHONY : ch2_introduction/c2_4.cpp.i
 
-grabCutWithMask.s: grabCutWithMask.cpp.s
+ch2_introduction/c2_4.s: ch2_introduction/c2_4.cpp.s
 
-.PHONY : grabCutWithMask.s
+.PHONY : ch2_introduction/c2_4.s
 
 # target to generate assembly for a file
-grabCutWithMask.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/grabCutWithMask.cpp.s
-.PHONY : grabCutWithMask.cpp.s
+ch2_introduction/c2_4.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/ch2_introduction/c2_4.cpp.s
+.PHONY : ch2_introduction/c2_4.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... OpenCVCppDemo"
-	@echo "... grabCutWithMask.o"
-	@echo "... grabCutWithMask.i"
-	@echo "... grabCutWithMask.s"
+	@echo "... ch2_introduction/c2_4.o"
+	@echo "... ch2_introduction/c2_4.i"
+	@echo "... ch2_introduction/c2_4.s"
 .PHONY : help
 
 
