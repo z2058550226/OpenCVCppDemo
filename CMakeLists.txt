@@ -7,6 +7,11 @@ find_package(OpenCV)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(OpenCVCppDemo ch2_introduction/c2_4.cpp)
+add_subdirectory(algorithm)
+
+add_executable(OpenCVCppDemo ch2_introduction/video.cpp)
+# add_executable(OpenCVCppDemo grabCutWithMask.cpp)
+
+target_link_libraries(OpenCVCppDemo AlgorithmUtils)
 
 target_link_libraries(OpenCVCppDemo ${OpenCV_LIBS})

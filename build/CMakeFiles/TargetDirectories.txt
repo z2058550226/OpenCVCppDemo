@@ -1,3 +1,6 @@
 /Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles/rebuild_cache.dir
 /Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles/edit_cache.dir
 /Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles/OpenCVCppDemo.dir
+/Users/butter/VscodeProjects/OpenCVCppDemo/build/algorithm/CMakeFiles/rebuild_cache.dir
+/Users/butter/VscodeProjects/OpenCVCppDemo/build/algorithm/CMakeFiles/edit_cache.dir
+/Users/butter/VscodeProjects/OpenCVCppDemo/build/algorithm/CMakeFiles/AlgorithmUtils.dir

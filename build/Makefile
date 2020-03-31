@@ -123,32 +123,45 @@ OpenCVCppDemo/fast:
 	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/build
 .PHONY : OpenCVCppDemo/fast
 
-ch2_introduction/c2_4.o: ch2_introduction/c2_4.cpp.o
+#=============================================================================
+# Target rules for targets named AlgorithmUtils
 
-.PHONY : ch2_introduction/c2_4.o
+# Build rule for target.
+AlgorithmUtils: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AlgorithmUtils
+.PHONY : AlgorithmUtils
+
+# fast build rule for target.
+AlgorithmUtils/fast:
+	$(MAKE) -f algorithm/CMakeFiles/AlgorithmUtils.dir/build.make algorithm/CMakeFiles/AlgorithmUtils.dir/build
+.PHONY : AlgorithmUtils/fast
+
+ch2_introduction/video.o: ch2_introduction/video.cpp.o
+
+.PHONY : ch2_introduction/video.o
 
 # target to build an object file
-ch2_introduction/c2_4.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/ch2_introduction/c2_4.cpp.o
-.PHONY : ch2_introduction/c2_4.cpp.o
+ch2_introduction/video.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/ch2_introduction/video.cpp.o
+.PHONY : ch2_introduction/video.cpp.o
 
-ch2_introduction/c2_4.i: ch2_introduction/c2_4.cpp.i
+ch2_introduction/video.i: ch2_introduction/video.cpp.i
 
-.PHONY : ch2_introduction/c2_4.i
+.PHONY : ch2_introduction/video.i
 
 # target to preprocess a source file
-ch2_introduction/c2_4.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/ch2_introduction/c2_4.cpp.i
-.PHONY : ch2_introduction/c2_4.cpp.i
+ch2_introduction/video.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/ch2_introduction/video.cpp.i
+.PHONY : ch2_introduction/video.cpp.i
 
-ch2_introduction/c2_4.s: ch2_introduction/c2_4.cpp.s
+ch2_introduction/video.s: ch2_introduction/video.cpp.s
 
-.PHONY : ch2_introduction/c2_4.s
+.PHONY : ch2_introduction/video.s
 
 # target to generate assembly for a file
-ch2_introduction/c2_4.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/ch2_introduction/c2_4.cpp.s
-.PHONY : ch2_introduction/c2_4.cpp.s
+ch2_introduction/video.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/ch2_introduction/video.cpp.s
+.PHONY : ch2_introduction/video.cpp.s
 
 # Help Target
 help:
@@ -159,9 +172,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... OpenCVCppDemo"
-	@echo "... ch2_introduction/c2_4.o"
-	@echo "... ch2_introduction/c2_4.i"
-	@echo "... ch2_introduction/c2_4.s"
+	@echo "... AlgorithmUtils"
+	@echo "... ch2_introduction/video.o"
+	@echo "... ch2_introduction/video.i"
+	@echo "... ch2_introduction/video.s"
 .PHONY : help
 
 

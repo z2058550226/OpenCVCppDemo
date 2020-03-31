@@ -4,15 +4,17 @@
 using namespace std;
 using namespace cv;
 
-int main() {
+int main()
+{
     Mat srcImage = imread("/Users/suikajy/vscode-workspace/LearnCmake/res/in_leaves.jpg");
-    if (!srcImage.data) {
+    if (!srcImage.data)
+    {
         cout << "Image not loaded";
         return -1;
     }
 
     imshow("[img]", srcImage);
     waitKey(0);
-
+    destroyAllWindows();
     return 0;
 }

@@ -6,7 +6,7 @@ int main(int argc, char **argv)
 {
     cv::namedWindow("Example3", cv::WINDOW_AUTOSIZE);
     cv::VideoCapture cap;
-    cap.open(std::string(argv[1]));
+    cap.open("/Users/butter/VscodeProjects/OpenCVCppDemo/res/color_space_test_video.mp4");
     cv::Mat frame;
     for (;;)
     {

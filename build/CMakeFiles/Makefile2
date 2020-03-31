@@ -54,32 +54,52 @@ CMAKE_BINARY_DIR = /Users/butter/VscodeProjects/OpenCVCppDemo/build
 
 # The main recursive "all" target.
 all: CMakeFiles/OpenCVCppDemo.dir/all
+all: algorithm/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: algorithm/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/OpenCVCppDemo.dir/clean
+clean: algorithm/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory algorithm
+
+# Recursive "all" directory target.
+algorithm/all: algorithm/CMakeFiles/AlgorithmUtils.dir/all
+
+.PHONY : algorithm/all
+
+# Recursive "preinstall" directory target.
+algorithm/preinstall:
+
+.PHONY : algorithm/preinstall
+
+# Recursive "clean" directory target.
+algorithm/clean: algorithm/CMakeFiles/AlgorithmUtils.dir/clean
+
+.PHONY : algorithm/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/OpenCVCppDemo.dir
 
 # All Build rule for target.
-CMakeFiles/OpenCVCppDemo.dir/all:
+CMakeFiles/OpenCVCppDemo.dir/all: algorithm/CMakeFiles/AlgorithmUtils.dir/all
 	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/depend
 	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles --progress-num=1,2 "Built target OpenCVCppDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles --progress-num=3,4 "Built target OpenCVCppDemo"
 .PHONY : CMakeFiles/OpenCVCppDemo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpenCVCppDemo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenCVCppDemo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles 0
 .PHONY : CMakeFiles/OpenCVCppDemo.dir/rule
@@ -93,6 +113,33 @@ OpenCVCppDemo: CMakeFiles/OpenCVCppDemo.dir/rule
 CMakeFiles/OpenCVCppDemo.dir/clean:
 	$(MAKE) -f CMakeFiles/OpenCVCppDemo.dir/build.make CMakeFiles/OpenCVCppDemo.dir/clean
 .PHONY : CMakeFiles/OpenCVCppDemo.dir/clean
+
+#=============================================================================
+# Target rules for target algorithm/CMakeFiles/AlgorithmUtils.dir
+
+# All Build rule for target.
+algorithm/CMakeFiles/AlgorithmUtils.dir/all:
+	$(MAKE) -f algorithm/CMakeFiles/AlgorithmUtils.dir/build.make algorithm/CMakeFiles/AlgorithmUtils.dir/depend
+	$(MAKE) -f algorithm/CMakeFiles/AlgorithmUtils.dir/build.make algorithm/CMakeFiles/AlgorithmUtils.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles --progress-num=1,2 "Built target AlgorithmUtils"
+.PHONY : algorithm/CMakeFiles/AlgorithmUtils.dir/all
+
+# Build rule for subdir invocation for target.
+algorithm/CMakeFiles/AlgorithmUtils.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 algorithm/CMakeFiles/AlgorithmUtils.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/butter/VscodeProjects/OpenCVCppDemo/build/CMakeFiles 0
+.PHONY : algorithm/CMakeFiles/AlgorithmUtils.dir/rule
+
+# Convenience name for target.
+AlgorithmUtils: algorithm/CMakeFiles/AlgorithmUtils.dir/rule
+
+.PHONY : AlgorithmUtils
+
+# clean rule for target.
+algorithm/CMakeFiles/AlgorithmUtils.dir/clean:
+	$(MAKE) -f algorithm/CMakeFiles/AlgorithmUtils.dir/build.make algorithm/CMakeFiles/AlgorithmUtils.dir/clean
+.PHONY : algorithm/CMakeFiles/AlgorithmUtils.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
